@@ -17,7 +17,7 @@
 #
 # -------------- Configuation (edit me) ---------------
 # Edit this list of default field names (see below for qacct list)
-FIELDS=( jobnumber taskid hostname exit_status start_time end_time ru_wallclock slots ru_maxrss maxvmem io jobname )
+FIELDS=( jobnumber taskid hostname exit_status qsub_time start_time end_time ru_wallclock slots ru_maxrss maxvmem io jobname )
 
 # Sort on taskid (1st field-name in list above) by default
 SORT_ON=1
